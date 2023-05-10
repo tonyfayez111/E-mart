@@ -19,7 +19,7 @@ const App = () => {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/E-mart"
           element={<Home data={setTempData} />}
           state={tempdata}
         />

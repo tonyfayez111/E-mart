@@ -76,13 +76,17 @@ export default function Navbar(props) {
     <div>
       <nav className="navbar navbar-expand-md navbar-light bg-white py-3 shadow-sm">
         <div className="container">
-          <NavLink className="navbar-brand fw-bold fs-4" to="/">
+          <NavLink className="navbar-brand fw-bold fs-4" to="/E-mart">
             Collection
           </NavLink>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <NavLink
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/E-mart"
+                >
                   Home
                 </NavLink>
               </li>

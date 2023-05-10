@@ -1,5 +1,5 @@
 import React from "react";
-
+import Contactimg from "../assets/Contact.png";
 const Contact = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-md 5 d-flex justify-content-center">
             <img
-              src="/assets/Contact.png"
+              src={Contactimg}
               alt="Contact Us"
               height="300px"
               width="300px"

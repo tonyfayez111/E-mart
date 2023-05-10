@@ -1,7 +1,7 @@
 {
   "name": "emart",
   "version": "0.1.0",
-  "homepage": "https://tonyfayez111.github.io/",
+  "homepage": "https://tonyfayez111.github.io/E-mart",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
