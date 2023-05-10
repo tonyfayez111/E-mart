@@ -15,7 +15,7 @@ export default function Home(props) {
       <div className="hero">
         <div className="card text-bg-dark border-0 ">
           <img
-            src="/assets/bg.jpeg"
+            src="/assets/Bg.jpeg"
             className="card-img"
             alt="Background"
             height="550px"
