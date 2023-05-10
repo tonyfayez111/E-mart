@@ -22,6 +22,7 @@ export default function Products() {
     getproducts();
   }, []);
   const Loading = () => {
+    console.log("ana loading");
     return (
       <>
         <div className="col-md-3">
@@ -45,6 +46,7 @@ export default function Products() {
     setFilter(updatedList);
   };
   const ShowProducts = () => {
+    console.log("ana show");
     return (
       <>
         <div className="button d-flex justify-content-center mb-5 pb-5">
