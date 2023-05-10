@@ -18,7 +18,7 @@ export default function Login() {
     signInWithEmailAndPassword(auth, email, pass)
       .then((userCredential) => {
         if (userCredential) {
-          navigate("/", { state: userCredential.user.email });
+          navigate("/E-mart", { state: userCredential.user.email });
         }
       })
       .catch((error) => {
