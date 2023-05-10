@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/E-mart/static/css/main.5f68319a.css",
-    "main.js": "/E-mart/static/js/main.2e20ed57.js",
-    "static/js/787.76b72599.chunk.js": "/E-mart/static/js/787.76b72599.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/E-mart/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/E-mart/index.html",
-    "main.5f68319a.css.map": "/E-mart/static/css/main.5f68319a.css.map",
-    "main.2e20ed57.js.map": "/E-mart/static/js/main.2e20ed57.js.map",
-    "787.76b72599.chunk.js.map": "/E-mart/static/js/787.76b72599.chunk.js.map"
+    "main.css": "/static/css/main.a7e323a0.css",
+    "main.js": "/static/js/main.2ee5e51f.js",
+    "static/js/787.76b72599.chunk.js": "/static/js/787.76b72599.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.a7e323a0.css.map": "/static/css/main.a7e323a0.css.map",
+    "main.2ee5e51f.js.map": "/static/js/main.2ee5e51f.js.map",
+    "787.76b72599.chunk.js.map": "/static/js/787.76b72599.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f68319a.css",
-    "static/js/main.2e20ed57.js"
+    "static/css/main.a7e323a0.css",
+    "static/js/main.2ee5e51f.js"
   ]
 }
