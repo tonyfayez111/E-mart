@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tonyfayez111/E-mart/static/css/main.03eda637.css",
-    "main.js": "/tonyfayez111/E-mart/static/js/main.c6003e1e.js",
-    "static/js/787.76b72599.chunk.js": "/tonyfayez111/E-mart/static/js/787.76b72599.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/tonyfayez111/E-mart/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/tonyfayez111/E-mart/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/tonyfayez111/E-mart/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/tonyfayez111/E-mart/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/tonyfayez111/E-mart/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/tonyfayez111/E-mart/index.html",
-    "main.03eda637.css.map": "/tonyfayez111/E-mart/static/css/main.03eda637.css.map",
-    "main.c6003e1e.js.map": "/tonyfayez111/E-mart/static/js/main.c6003e1e.js.map",
-    "787.76b72599.chunk.js.map": "/tonyfayez111/E-mart/static/js/787.76b72599.chunk.js.map"
+    "main.css": "/E-mart/static/css/main.5f68319a.css",
+    "main.js": "/E-mart/static/js/main.fcfd3497.js",
+    "static/js/787.76b72599.chunk.js": "/E-mart/static/js/787.76b72599.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/E-mart/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/E-mart/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/E-mart/index.html",
+    "main.5f68319a.css.map": "/E-mart/static/css/main.5f68319a.css.map",
+    "main.fcfd3497.js.map": "/E-mart/static/js/main.fcfd3497.js.map",
+    "787.76b72599.chunk.js.map": "/E-mart/static/js/787.76b72599.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03eda637.css",
-    "static/js/main.c6003e1e.js"
+    "static/css/main.5f68319a.css",
+    "static/js/main.fcfd3497.js"
   ]
 }
