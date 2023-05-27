@@ -46,36 +46,35 @@ export default function Products() {
     setFilter(updatedList);
   };
   const ShowProducts = () => {
-    console.log("ana show");
     return (
       <>
-        <div className="button d-flex justify-content-center mb-5 pb-5">
+        <div className="button d-flex justify-content-center mb-5 pb-5 ">
           <button
-            className="btn btn-outline-dark me-2"
+            className="btn btn-outline-dark me-2 col-1 display-6"
             onClick={() => setFilter(data)}
           >
             All
           </button>
           <button
-            className="btn btn-outline-dark me-2"
+            className="btn btn-outline-dark me-2 col-2 display-6"
             onClick={() => filterProduct("men's clothing")}
           >
             Men's Clothing
           </button>
           <button
-            className="btn btn-outline-dark me-2"
+            className="btn btn-outline-dark me-2 col-2 idsplay-6 text-wrap"
             onClick={() => filterProduct("women's clothing")}
           >
             Women's Clothing
           </button>
           <button
-            className="btn btn-outline-dark me-2"
+            className="btn btn-outline-dark me-2 col-2 display-6"
             onClick={() => filterProduct("jewelery")}
           >
             Jewelery
           </button>
           <button
-            className="btn btn-outline-dark me-2"
+            className="btn btn-outline-dark me-2 col-2 display-6"
             onClick={() => filterProduct("electronics")}
           >
             Electronics
@@ -115,7 +114,7 @@ export default function Products() {
   return (
     <div>
       <div className="container my-5 py-5">
-        <div className="row">
+        <div className="row ">
           <div className="col-12 mb-5">
             <h1 className="display-6 fw-bolder text-center">Latest Products</h1>
             <hr />

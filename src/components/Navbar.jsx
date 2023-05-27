@@ -2,23 +2,24 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 export default function Navbar(props) {
-  console.log(props.data.actualdata, "ana navbar");
   const state = useSelector((state) => state.handleCart);
-  // const List = () => {
-  //   return (
-  //     <div className="dropdown-menu dropdown-menu-right">
-  //       <button className="dropdown-item" type="button">
-  //         Action
-  //       </button>
-  //       <button className="dropdown-item" type="button">
-  //         Another action
-  //       </button>
-  //       <button className="dropdown-item" type="button">
-  //         Something else here
-  //       </button>
-  //     </div>
-  //   );
-  // };
+
+  const List = () => {
+    if (window.innerWidth < 576) {
+      console.log(window.innerWidth);
+      // return (
+      //   <>
+      //     <div>
+      //       {Login()}
+      //       {Register()}
+      //       {Saved()}
+
+      //       {Logout()}
+      //     </div>
+      //   </>
+      // );
+    }
+  };
   const handleLogout = () => {
     props.data.setdata(null);
     console.log(props.data, "ana handle logout");
@@ -29,7 +30,7 @@ export default function Navbar(props) {
         to="/cart"
         className="btn btn-outline-dark ms-2 d-flex align-items-center"
       >
-        <i className="fa fa-sharp fa-solid fa-bookmark mx-2"></i> Saved (
+        <i className="fa fa-sharp fa-solid fa-bookmark me-2"></i> Saved (
         {state.length})
       </NavLink>
     );
@@ -63,7 +64,7 @@ export default function Navbar(props) {
     if (props.data.actualdata != null) {
       return (
         <NavLink
-          to="/"
+          to="/E-mart"
           className="btn btn-outline-dark ms-2 d-flex align-items-center"
           onClick={handleLogout}
         >
@@ -74,7 +75,7 @@ export default function Navbar(props) {
   };
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-light bg-white py-3 shadow-sm">
+      <nav className="navbar navbar-expand-sm navbar-light bg-white py-3 shadow-sm">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-4" to="/E-mart">
             Collection
@@ -103,10 +104,11 @@ export default function Navbar(props) {
               </li>
             </ul>
 
-            <div className="buttons d-flex">
+            <div className="buttons d-flex flex-direction-column">
               {Login()}
               {Register()}
               {Saved()}
+              {List()}
               {Logout()}
             </div>
           </div>
